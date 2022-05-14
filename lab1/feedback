@@ -1,0 +1,69 @@
+Submission Feedback
+Overall Feedback
+Out of 35 tests runs which included the first 20 of the inout references provided, you got 32 right.
+Here is the correct(1)/incorrect(0) vector:
+RES 32 of 35:  1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0 1 0 1
+
+The final score is comprised as follows
+CODE TURNED IN: 40
+RESULTS: 32 correct => 54.8520/60
+DEDUCTIONS: 0
+LATE: 0
+-------------------------------
+LABRESULTS = 40 + 54.8520 - DEDUCTION = 94.8520
+This score will be scaled as described on the lab website.  
+
+
+DIFF:
+################### input-25##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+1c1
+< Parse Error line 2 offset 6: NUM_EXPECTED
+---
+> Parse Error line 2 offset 1: NUM_EXPECTED
+
+################### input-32##################
+###    Warning Diff:    .....
+###    Code/Error Diff: .....
+1,2c1,2
+< Symbol Table
+< Memory Map
+---
+> terminate called after throwing an instance of 'std::logic_error'
+>   what():  basic_string::_M_construct null not valid
+
+################### input-34##################
+###    Warning Diff:    .....
+1,4d0
+< Warning: Module 3: ABC appeared in the uselist but was not actually used
+< Warning: Module 5: x1 was defined but never used
+< Warning: Module 5: x2 was defined but never used
+< Warning: Module 5: x3 was defined but never used
+###    Code/Error Diff: .....
+1,16c1
+< Symbol Table
+< v1=1
+< v2=2
+< v3=3
+< x1=5
+< x2=6
+< x3=7
+< Memory Map
+< 000: 5002
+< 001: 6001
+< 002: 1003
+< 003: 3003
+< 004: 5002
+< 005: 6001
+< 006: 1004 Error: Relative address exceeds module size; zero used
+< 007: 3003
+---
+> Parse Error line 18 offset 1: NUM_EXPECTED
+
+Score
+94.85 / 100 - A
+Feedback Date
+Feb 20, 2022 1:01 AM
+Assignment
+Lab1: Linker
