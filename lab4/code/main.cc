@@ -7,13 +7,13 @@
 using namespace std;
 
 // server----------------------------------------
-// ssh ym2360@access.cims.nyu.edu
+// ssh nyuID@access.cims.nyu.edu
 // password: *******
-// ssh ym2360@linserv1.cims.nyu.edu
-// scp lab4_assign.zip ym2360@access.cims.nyu.edu:/home/ym2360/os/lab
-// unzip -o -d /home/ym2360/os/lab4 lab4_assign.zip
-// ./runit.sh /home/ym2360/os/lab4/testOutput /home/ym2360/os/lab4/iosched
-// ./gradeit.sh /home/ym2360/os/lab4/testOutput /home/ym2360/os/lab4/lab4_assign
+// ssh nyuID@linserv1.cims.nyu.edu
+// scp lab4_assign.zip nyuID@access.cims.nyu.edu:/home/nyuID/os/lab
+// unzip -o -d /home/nyuID/os/lab4 lab4_assign.zip
+// ./runit.sh /home/nyuID/os/lab4/testOutput /home/nyuID/os/lab4/iosched
+// ./gradeit.sh /home/nyuID/os/lab4/testOutput /home/nyuID/os/lab4/lab4_assign
 
 // local----------------------------------------
 // ./iosched -v -f -q -ss "/Users/yachiru/Documents/nyu/class/OS/lab4/lab4_assign/input1"
