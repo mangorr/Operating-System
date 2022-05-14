@@ -14,15 +14,15 @@
 using namespace std;
 
 // server------------------------------------------------------------
-// ssh ym2360@access.cims.nyu.edu
+// ssh nyuID@access.cims.nyu.edu
 // password: *******
-// ssh ym2360@linserv1.cims.nyu.edu
-// scp lab2_assign.zip ym2360@access.cims.nyu.edu:/home/ym2360/os/lab2
-// scp lab3_assign.zip ym2360@access.cims.nyu.edu:/home/ym2360/os/lab3
-// unzip -o -d /home/ym2360/os/lab2 submit_lab2.zip
-// ./runit.sh /home/ym2360/os/lab2/outputdir /home/ym2360/os/lab2/submit_lab2/sched
-// ./runit.sh /home/ym2360/os/lab3/outputdir /home/ym2360/os/lab3/mmu
-// ./gradeit.sh /home/ym2360/os/lab2/lab2_assign/refout /home/ym2360/os/lab2/outputdir
+// ssh nyuID@linserv1.cims.nyu.edu
+// scp lab2_assign.zip nyuID@access.cims.nyu.edu:/home/nyuID/os/lab2
+// scp lab3_assign.zip nyuID@access.cims.nyu.edu:/home/nyuID/os/lab3
+// unzip -o -d /home/nyuID/os/lab2 submit_lab2.zip
+// ./runit.sh /home/nyuID/os/lab2/outputdir /home/nyuID/os/lab2/submit_lab2/sched
+// ./runit.sh /home/nyuID/os/lab3/outputdir /home/nyuID/os/lab3/mmu
+// ./gradeit.sh /home/nyuID/os/lab2/lab2_assign/refout /home/nyuID/os/lab2/outputdir
 
 // local--------------------------------------------------------------
 // test. Run in lab2
