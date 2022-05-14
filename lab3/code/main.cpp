@@ -14,14 +14,14 @@
 using namespace std;
 
 // server------------------------------------------------------------
-// ssh ym2360@access.cims.nyu.edu
+// ssh nyuID@access.cims.nyu.edu
 // password: *******
-// ssh ym2360@linserv1.cims.nyu.edu
-// scp lab3_assign.zip ym2360@access.cims.nyu.edu:/home/ym2360/os/lab3
-// unzip -o -d /home/ym2360/os/lab3 submit_lab3.zip
+// ssh nyuID@linserv1.cims.nyu.edu
+// scp lab3_assign.zip nyuID@access.cims.nyu.edu:/home/nyuID/os/lab3
+// unzip -o -d /home/nyuID/os/lab3 submit_lab3.zip
 
-// ./runit.sh /home/ym2360/os/lab3/lab3_assign/inputs /home/ym2360/os/lab3/outputdir /home/ym2360/os/lab3/submit/mmu
-// ./gradeit.sh /home/ym2360/os/lab3/outputdir /home/ym2360/os/lab3/lab3_assign/refout
+// ./runit.sh /home/nyuID/os/lab3/lab3_assign/inputs /home/nyuID/os/lab3/outputdir /home/nyuID/os/lab3/submit/mmu
+// ./gradeit.sh /home/nyuID/os/lab3/outputdir /home/nyuID/os/lab3/lab3_assign/refout
 
 // local------------------------------------------------------------
 // ./runit.sh /Users/yachiru/Documents/nyu/class/OS/lab3/lab3_assign/inputs /Users/yachiru/Documents/nyu/class/OS/lab3/testoutput /Users/yachiru/Documents/nyu/class/OS/lab3/submit/mmu
